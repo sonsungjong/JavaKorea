@@ -2,7 +2,6 @@ package day02;
 
 public class Review {
 	public static void main(String[] args) {
-		// 출력 syso -> Ctrl+F11 실행
 		System.out.println("출력하고 싶은 말");
 		
 		// 변수 (저장공간)
@@ -14,7 +13,6 @@ public class Review {
 		// 변수 사용
 		System.out.println(변수1);
 		System.out.println("나의 말은 : "+변수2);
-		
 		// 변수의 자료형
 		int 정수형 = -33333;
 		double 실수형 = 3.141592;
@@ -25,10 +23,6 @@ public class Review {
 		// 변수1 = 3.141592;
 		
 		// 연산자(기능)
-		// 더하기 +
-		// 빼기 -
-		// 곱하기 *
-		// 나누기 /
 		int result;
 		result = 51+3;
 		result = 33-1;

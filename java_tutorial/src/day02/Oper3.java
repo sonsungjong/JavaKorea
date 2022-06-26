@@ -13,6 +13,8 @@ public class Oper3 {
 		int 수학 = 77, 영어 = 82, 국어 = 100;
 		// 합계 : 259
 		// 평균 : 86.3333333
+		System.out.println("합계 : "+(수학+영어+국어));
+		System.out.println("평균 : "+(((double)수학+영어+국어)/3));
 		
 	}
 }
