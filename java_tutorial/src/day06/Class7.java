@@ -16,7 +16,6 @@ public class Class7 {
 		System.out.println(p1.get이름()+"은 "+p1.get나라()+"에서 온 "+p1.get나이()+"살이다.");
 		System.out.println(p2.get이름()+"은 "+p2.get나라()+"에서 온 "+p2.get나이()+"살이다.");
 		
-		// syso
 		// 홍길동은 한국에서 온 23살이다.
 		// 아무개은 캐나다에서 온 22살이다.
 	}
