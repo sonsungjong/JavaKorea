@@ -59,11 +59,14 @@ class MyClient extends Thread{
 	// 서버로 메시지를 보내는 함수
 	public void sendMessage() {
 		System.out.println("보낼 메시지:");
-		String msg = sc.nextLine();
+		String msg = "";
 		try {
+			if(sc.hasNextLine()) {
+				msg = sc.nextLine();
+			}
 			oos.writeObject(msg);
 			oos.flush();		// 버그방지 (보내고나서 쓰레기값이 남아있을 수도 있기 때문에 비움)
-		} catch (IOException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
